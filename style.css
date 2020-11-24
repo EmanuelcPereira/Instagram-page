@@ -80,17 +80,79 @@ body {
 
 }
 
+.login {
+    margin:3px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    background-color: rgb(241, 240, 240);
+}
 .instagram-login{
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px;
+    padding: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border: none;
     border-radius: 4px;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.instagram-logout {
-    color: #0095f6;
-    margin-top: 1rem;
+.line {
+    display: flex;
+    align-items: center;
+    color: rgb(110, 109, 109);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
+hr {
+    width: 104px;
+    align-items: center;
+    border: 1px solid lightgray;  
+}
+
+span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.facebook-login {
+    display: flex;
+    color:#00376B;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+.facebook-login img {
+    height: 25px;
+    margin: 0;
+    margin-top: -0.3rem;
+
+}
+
+.facebook-login a:visited {
+    color:#00376B;
+    text-decoration: none;
+}
+
+.password {
+    margin-top: 10px;
+    color:#00376B;
+}
+
+.password a:visited {
+    color:#00376B;
+    text-decoration: none;
+}
+
+#res {
+    margin-top: 10px;
+    color: red;
 }
 
 .not-account {
